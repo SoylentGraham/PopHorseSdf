@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Sdf
+  m_Shader: {fileID: 4800000, guid: a3b6902bbfed840ec889a90b74ad2d12, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - ColourTexture:
+        m_Texture: {fileID: 2800000, guid: 6158c5451d6e24dcdb1d834cc5c7e526, type: 3}
+        m_Scale: {x: 0.8, y: 0.8}
+        m_Offset: {x: 0.2, y: 0}
+    - SdfTexture:
+        m_Texture: {fileID: 2800000, guid: 22c8c4ced391342e1b4c74255f3e40d9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - ColourCount: 10
+    - EdgeDistance: 0.996
+    - StripeCount: 15.6
+    - StripeDistance: 0.1
+    m_Colors:
+    - Colour0: {r: 0.6797837, g: 1, b: 0.372549, a: 1}
+    - Colour1: {r: 1, g: 0.9447843, b: 0.372549, a: 1}
+    - Colour2: {r: 1, g: 0.6970926, b: 0.372549, a: 1}
+    - Colour3: {r: 1, g: 0.372549, b: 0.51534826, a: 1}
+    - Colour4: {r: 1, g: 0.372549, b: 1, a: 1}
+    - Colour5: {r: 0.757674, g: 0.372549, b: 1, a: 1}
+    - Colour6: {r: 0.5240027, g: 0.372549, b: 1, a: 1}
+    - Colour7: {r: 0.372549, g: 0.5586207, b: 1, a: 1}
+    - Colour8: {r: 0.372549, g: 0.81825554, b: 1, a: 1}
+    - Colour9: {r: 0.372549, g: 1, b: 0.81825554, a: 1}
+    - ColourA: {r: 0.6592292, g: 0.9558824, b: 0.32331318, a: 1}
+    - ColourB: {r: 1, g: 0, b: 0.6827588, a: 1}
